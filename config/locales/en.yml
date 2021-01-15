@@ -1,0 +1,99 @@
+en:
+
+  language: en
+  geartranslations: Gear Translations
+
+  terms-and-conditions: Terms and Conditions of Use
+  cookies-policy: Cookie Policy
+  privacy-policy: Privacy Policy and Legal Notice
+
+  title: "Spotter: competitor analysis tool"
+  description: 'Spotter is the ideal competitor analysis tool for SMEs that want to go international - try it now for free!'
+  keywords-extractor:
+    title1: "Spotter:"
+    title2: "herramienta<br>de análisis de competidores"
+    subtitle: 'Crea un sistema de vigilancia de tus competidores,<br>convierte datos en conocimiento y toma ventaja en tu mercado'
+    content: "Spotter, analizador de competencia. Crea un sistema de vigilancia de tus competidores, convierte datos en conocimiento. <br><br> Spotter es la herramienta de inteligencia artificial que permite a tu empresa mantener un sistema de inteligencia competitiva, un control de tus competidores y potenciales competidores. <br><br> Configura un sistema que recoge datos de webs, redes sociales, servicios, productos y tráfico de competidores, así como al sector en general para mejorar la toma de decisiones de tu empresa, anticiparte a crisis y conflictos, detectar oportunidades de negocio y demandas sociales. <br><br> Dar el salto a un sistema de business intelligence incrementa el volumen de información sectorial y de competidores que analizas, y te permite transformarlo en iniciativas de mejora empresariales."
+    personalise:
+      title: "Crea un sistema<br>de inteligencia competitiva"
+      subtitle: Analiza de forma automatizada toda la actividad e información digital de otras empresas con la herramienta de análisis de competidores Spotter.
+      list:
+        l1: Extraer y analizar palabras clave de competidores
+        l2: Conocer el posicionamiento SEO de la competencia
+        l3: Averiguar la estrategia de marketing en redes sociales
+        l4: Saber las claves de comunicación en sus textos digitales
+        l5: Comparar competidores con tu empresa y entre sí
+        l6: Observar las dinámicas comparando cambios en el tiempo
+        l7: Consultar informes de forma gráfica y efectiva
+        l8: Detectar oportunidades de negocio y de mejora
+        l9: Tomar decisiones estratégicas basadas en datos de mercado
+        l10: Mejorar tu estrategia online y tu inversión en marketing
+        l11: Tener siempre visibilidad de la información importante
+        l12: Reducir tiempos y costes en la vigilancia de competidores
+        l13: ¡y mucho más!
+    benefits:
+      title: Impulsa tu negocio con Spotter
+      subtitle: "Una herramienta de análisis de competidores como Spotter te permite contar con la<br><b>información que necesitas al momento para tomar las mejores decisiones estratégicas</b>:"
+      list:
+        l1:
+          icon: 'fa-chart-line'
+          title: Análisis ágil de la competencia
+          content: "Consigue una mejor experiencia de usuario al <b>disponer de todos los canales de tus competidores centralizados en una única plataforma en la nube</b>. Aprovecha las ventajas del business intelligence a través de funcionalidades intuitivas y efectivas."
+        l2:
+          icon: 'fa-search'
+          title: Extracción de todo el contenido
+          content: "Spotter <b>extrae</b> cada contenido de las páginas y canales de comunicación de la competencia y de la tuya propia y lo <b>organiza</b> conforme a la navegación."
+        l3:
+          icon: 'fa-font'
+          title: Análisis automático de palabras clave
+          content: "El motor de análisis de Spotter analiza con precisión las palabras clave de tus competidores al instante, realiza comparativas y muestra en tiempo real el historial de cambios en las webs examinadas."
+        l4:
+          icon: 'fa-bullhorn'
+          title: Estrategias de marketing más efectivas
+          content: "Conoce las mejores tácticas, <b>refuerza tus puntos débiles y aprovecha los de tus competidores</b>. Controla para qué conceptos logras posicionarte y saca partido a la inteligencia artificial sin límites."
+        l5:
+          icon: 'fa-chart-bar'
+          title: Anticipación al mercado
+          content: "<b>Capta en pocos clics las nuevas tendencias de tu sector</b>, las palabras clave más eficaces, las temáticas y  dinámicas actuales. Identifica oportunidades y amenazas, reduce el riesgo en la toma de decisiones y mejora la satisfacción de tus clientes. "
+        l6:
+          icon: 'fa-chart-pie'
+          title: Representación efectiva de resultados
+          content: "<b>Ahorra tiempo y filtra fácilmente los datos que te interesan</b> para tener siempre visibilidad de la información prioritaria. Guarda tus comparativas favoritas en distintos formatos: rankings de competidores, gráficos, nubes de palabras..."
+    posts:
+      title: "Empieza a sacar partido a tu<br>herramienta de análisis de competidores Spotter"
+      subtitle: "Sácale todo el partido a esta herramienta de análisis de competidores con nuestras guías y recursos gratuitos:"
+      list:
+        l1:
+          image: "https://blog.geartranslations.com/hubfs/Post%20Blog/Gear__Analisis%20de%20palabras%20online-%20descubre%20c%C3%B3mo%20mejorar%20tu%20web%20con%20Spotter.jpg"
+          url: https://blog.geartranslations.com/analisis-de-la-competencia-online-descubre-sus-secretos-con-spotter
+          title: "Análisis de la competencia online: descubre sus secretos con Spotter"
+          content: Conoce las funcionalidades de Spotter, cómo utilizarlo eficazmente para analizar a tus competidores así como ejemplos reales de uso.
+        l2:
+          image: "https://blog.geartranslations.com/hubfs/Post%20Blog/Gear__Desmarcate%20de%20la%20competencia%20online%20con%20nuestra%20herramienta.jpg"
+          url: https://blog.geartranslations.com/desmarcate-de-la-competencia-online-con-spotter
+          title: "Desmárcate de la competencia online con Spotter"
+          content: Descubre cómo llevar a cabo un análisis de la competencia online eficaz para aprovechar todas las oportunidades gracias a esta herramienta inteligente.
+        l3:
+          image: "https://blog.geartranslations.com/hubfs/Post%20Blog/Gear__C%C3%B3mo%20analizar%20las%20palabras%20clave%20de%20una%20web%20copia.jpg"
+          url: https://blog.geartranslations.com/analisis-de-palabras-online-descubre-como-mejorar-tu-web-con-spotter
+          title: "Análisis de palabras online: descubre cómo mejorar tu web con Spotter"
+          content: Aprende a realizar un análisis de keywords en el medio digital con esta avanzada solución tecnológica para dar a tu web el empujón que necesita.
+    faq:
+      title: Preguntas frecuentes sobre Spotter
+      list:
+        q1:
+          question: ¿Qué es exactamente Spotter?
+          answer: "Es una <b>herramienta de análisis de competidores en la nube basada en inteligencia artificial</b>. Te permite extraer los datos y contenido digital de tus competidores (webs, redes sociales, tráfico servicios, productos)  y el tuyo propio para analizarlo y obtener información útil con la que mantener un sistema de <b>inteligencia competitiva</b> para liderar procesos de mejora empresarial."
+        q2:
+          question: ¿Cómo puedo comenzar con Spotter?
+          answer: "Spotter es una solución tecnológica <b>intuitiva y muy fácil de usar y configurar</b>, por lo que no es preciso contar con conocimientos específicos o técnicos para utilizarla.<br><br>Además, para poner en marcha tu herramienta de análisis de competidores Spotter <b>no es necesario instalar nada. Accede online desde donde quieras</b>. Tras registrarte y realizar una configuración muy sencilla con las URLs de las páginas web tus competidores, puedes empezar a analizar a tu competencia de modo inmediato."
+        q3:
+          question: ¿Por qué es importante analizar a la competencia?
+          answer: "Los datos de tus competidores te permiten <b>obtener información relevante para tomar mejores decisiones adaptadas al mercado</b>. Una herramienta de análisis de competidores permite de forma ágil identificar puntos débiles y fuertes de la competencia y <b>rentabilizar ese conocimiento</b> para:<br><br><ul><li>Diferenciarte aprovechando las demandas existentes que tus competidores no han sabido cubrir.</li><li>Conocer qué estrategias sí funcionan a tus competidores y aprender de sus fortalezas.</li><li>Comprender qué no haces tan bien, para tratar de hacerlo mejor detectando oportunidades de mejora.</li><li>Conocer mejor a tus clientes y sector.</li><li>Tomar mejores decisiones basadas en datos de mercado en tiempo real.</li></ul>"
+        q4:
+          question: ¿Por qué usar una herramienta de análisis de competidores avanzada?
+          answer: "Utilizar Spotter es una forma muy sencilla de realizar análisis digitales complejos de la competencia de modo <b>ágil y efectivo</b>. La búsqueda y comparativa de palabras clave, el análisis de webs, redes sociales y de la presencia en Internet son tareas que consumen una gran cantidad de tiempo y pierden valor si la información no se gestiona en tiempo real.<br><br><b>Apóyate en la tecnología apropiada para capturar cada cambio que tus competidores realicen en sus canales y campañas online</b>.<br><br>Usa Spotter para mantenerte siempre al día en tu mercado <b>sin esfuerzo</b> reduciendo los costes de meses de trabajo. Pasa a la acción con tu sistema de inteligencia competitiva y <b>transforma los datos en mejores estrategias de negocio</b>."
+
+  hubspot:
+    buttons:
+      keywords-extractor: "<span class='hs-cta-wrapper' id='hs-cta-wrapper-aa118158-1c52-4534-8915-39e44ae349c9'><span class='hs-cta-node hs-cta-aa118158-1c52-4534-8915-39e44ae349c9' id='hs-cta-aa118158-1c52-4534-8915-39e44ae349c9'><!--[if lte IE 8]><div id='hs-cta-ie-element'></div><![endif]--><a href='https://cta-redirect.hubspot.com/cta/redirect/7149722/aa118158-1c52-4534-8915-39e44ae349c9' target='_blank' ><img class='hs-cta-img' id='hs-cta-img-aa118158-1c52-4534-8915-39e44ae349c9' style='border-width:0px;' src='https://no-cache.hubspot.com/cta/default/7149722/aa118158-1c52-4534-8915-39e44ae349c9.png' alt='Free Trial'/></a></span><script charset='utf-8' src='https://js.hscta.net/cta/current.js'></script><script type='text/javascript'> hbspt.cta.load(7149722, 'aa118158-1c52-4534-8915-39e44ae349c9', {}); </script></span>"

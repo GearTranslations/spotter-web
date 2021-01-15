@@ -1,0 +1,236 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WSQ5LCP');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <title><%= t 'title' %></title>
+    <meta content="<%= t 'description' %>" name="description">
+    <meta property="og:image" content="https://spotter.geartranslations.com/assets/logo-d66d61b7b160036782f080db747f325ff106d7cc7b64302b244d4ad99aa1f8f0.svg" />
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <!-- Favicon -->
+    <link href="/images/favicon.png" rel="shortcut icon" type="image/x-icon">
+    <link href="/images/favicon.png" rel="apple-touch-icon">
+    <!-- Plugins -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Style Css -->
+    <link href="/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <link hreflang="es" rel="alternate" href="<%= URI.parse(base_url).to_s%>/"/>
+    <link hreflang="x-default" rel="alternate" href="<%= URI.parse(base_url).to_s%>/"/>
+  </head>
+  <body class="template-color-6 template-font-1">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSQ5LCP"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+    <!--COMMENTED UNTIL WE MAKE WEB MULTILINGUAL>
+    <div class="wrapper" id="wrapper">
+      <header class="br_header header-default header-transparent light-logo--version haeder-fixed-width headroom--sticky header-mega-menu clearfix">
+        <div class="top-bar">
+          <div class="content">
+            <a>
+              <nav class="page_nav">
+                <ul class="mainmenu">
+                  <li class="lavel-1 with--drop slide-dropdown">
+                    <a href="#">
+                      <span>
+                        <%= t 'menu.language' %> <img class="language" src="/images/media/elements/<%= t('language').upcase! %>.svg">
+                      </span>
+                    </a>
+                    <ul class="dropdown__menu dropdown_left">
+                      <li>
+                        <a href='<%= request.path_info.gsub("/" + I18n.locale.to_s + "/", "/es/")%>'>
+                          <span>
+                            <img alt="BanderaES" Title="BanderaES" class="language" src="/images/media/elements/ES.svg">
+                            <%= t 'language-selector.spanish' %>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href='<%= request.path_info.gsub("/" + I18n.locale.to_s + "/", "/en/")%>'>
+                          <span>
+                            <img alt="BanderaEn" Title="BanderaEn" class="language" src="/images/media/elements/EN.svg">
+                            <%= t 'language-selector.english' %>
+                          </span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+            </a>
+          </div>
+        </div>
+      </header>
+    </div>
+    <!-->
+    <div class="rvbody">
+      <main class="page-content">
+        <div class="breadcaump-area blue-vertical-gradient-bg pt--100 pb--100 breadcaump-title-bar ">
+          <div class="container">
+            <div class="row">
+              <div class="colum50">
+                <div class="">
+                  <h1>
+                    <b><span class="heading-soluciones"><%= t 'keywords-extractor.title1' %></span>
+                    <span><%= t 'keywords-extractor.title2' %></span></b>
+                  </h1>
+                  <h2 class="subtitle"><%= t 'keywords-extractor.subtitle' %></h2>
+                  <div class="CTA-header"><%= t 'hubspot.buttons.keywords-extractor' %></div>
+                </div>
+              </div>
+              <div class="colum50">
+                <div class="derecha">
+                  <img class="header-img" src="/images/spotter-header-img.svg">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="background-spotter pt--50">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12 col-12 border-right pb--50 pt--50">
+                <div class="brook-section-details wow move-up ">
+                  <h2 class="heading heading-h3 font-large pb--20">
+                    <%= t 'keywords-extractor.personalise.title' %>
+                  </h2>
+                </div>
+                <div><%= t 'keywords-extractor.personalise.subtitle' %></div>
+                <div class="pt--50">
+                  <iframe width="90%" height="285" src="https://www.youtube.com/embed/Yy_Stpu0-_M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt_sm--40 pd-left pb--50 pt--80">
+                <ul class="pretty-ul blue">
+                  <% t('keywords-extractor.personalise.list').each do |_key, value| %>
+                    <li><%= value %></li>
+                  <% end %>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="mt--100 mb--50 text-center">
+                    <h2 class="heading heading-h3 font-40 pb--40">
+                      <%= t 'keywords-extractor.benefits.title' %>
+                    </h2>
+                    <div><%= t 'keywords-extractor.benefits.subtitle' %></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row pb--30">
+                <% t('keywords-extractor.benefits.list').each do |_key, value| %>
+                  <div class="col-lg-4 col-sm-6 col-12 move-up wow mt--30">
+                    <div class="blog-grid-minimal minimal-style-2 pretty-grid blue">
+                      <div class="post-content">
+                        <div class="icon">
+                          <i class="fas <%= value[:icon] %>"></i>
+                        </div>
+                        <h4 class="heading heading-h4 font-weight-700 min-height-100">
+                          <%= value[:title] %>
+                        </h4>
+                        <p><%= value[:content] %></p>
+                      </div>
+                    </div>
+                  </div>
+                <% end %>
+              </div>
+              <div class="CTA-header text-center pb--100">
+                <%= t 'hubspot.buttons.keywords-extractor' %>
+              </div>
+            </div>
+            <div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="mb--50 text-center">
+                    <h2 class="heading heading-h3 font-40 pb--40">
+                      <%= t 'keywords-extractor.posts.title' %>
+                    </h2>
+                    <div><%= t 'keywords-extractor.posts.subtitle' %></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row pb--30">
+                <% t('keywords-extractor.posts.list').each do |_key, value| %>
+                  <div class="col-lg-4 col-sm-6 col-12 move-up wow mt--30">
+                    <div class="blog-grid-minimal minimal-style-2 spotter-blog-grid">
+                      <a href="<%= value[:url] %>" target="_blank">
+                        <div class="post-content">
+                          <div class="image pb--20">
+                            <img src="<%= value[:image] %>"></img>
+                          </div>
+                          <div class="pr--40 pl--40 pt--40 pb--40">
+                            <h5 class="font-weight-700 pb--10">
+                              <%= value[:title] %>
+                            </h5>
+                            <p><%= value[:content] %></p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                <% end %>
+              </div>
+              <div class="CTA-header text-center pb--100">
+                <%= t 'hubspot.buttons.keywords-extractor' %>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="blue-horizontal-gradient-bg">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="mt--100">
+                  <h2 class="heading heading-h3 font-40 pb--40 text-center">
+                    <%= t 'keywords-extractor.faq.title' %>
+                  </h2>
+                  <div class="pb--30">
+                    <% t('keywords-extractor.faq.list').each do |_key, value| %>
+                      <div class="row faq mb--10">
+                        <div class="question">
+                          <h3><%= value[:question] %></h3>
+                        </div>
+                        <div class="answer">
+                          <span><%= value[:answer] %></span>
+                        </div>
+                      </div>
+                    <% end %>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="CTA-header text-center pb--100">
+              <%= t 'hubspot.buttons.keywords-extractor' %>
+            </div>
+          </div>
+        </div>
+        <footer class="footer pb--20 pt--20">
+          <div class="bottom-footer"><p><a href="https://www.geartranslations.com/es/textos-legales/terminos-y-condiciones" target="_blank"> <%= t 'terms-and-conditions' %> </a> <span class="pl--10 pr--10"> | </span> <a href="https://www.geartranslations.com/es/textos-legales/politica-de-cookies" target="_blank"> <%= t 'cookies-policy' %> </a> <span class="pl--10 pr--10"> | </span> <a href="https://www.geartranslations.com/es/textos-legales/politica-de-privacidad" target="_blank"><%= t 'privacy-policy' %></a> </p></div>
+        </footer>
+      </main>
+    </div>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/main.js"></script>
+
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/7149722.js"></script>
+    <!-- End of HubSpot Embed Code -->
+  </body>
+</html>

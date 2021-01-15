@@ -1,0 +1,7 @@
+User-agent: *
+
+User-agent: bingbot
+Crawl-Delay: 30
+
+# Sitemaps
+Sitemap: http://www.infinat.io/sitemap.xml
