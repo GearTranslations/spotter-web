@@ -12,9 +12,17 @@
   text-shadow: none;
   width: 218px;
   font-size: 24px;
-  background: linear-gradient(to right, rgba(246,216,117,1) 0%, rgba(250,66,99,1) 100%);
+  background: linear-gradient(to right, #86D2FC 0%, #5C6FFB 100%);
   color: #000000;
   font-size: 17px;
   line-height: 51px;
   border-radius: 150px;
+  position: relative;
+  top: 0;
+}
+
+.blue-button:hover {
+  background: #5C6FFB;
+  color: #fff;
+  top: -5px;
 }
