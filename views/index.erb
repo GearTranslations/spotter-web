@@ -21,6 +21,7 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <!-- Style Css -->
     <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/buttons.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <link hreflang="es" rel="alternate" href="<%= URI.parse(base_url).to_s%>/"/>
@@ -89,7 +90,7 @@
                     <span><%= t 'keywords-extractor.title2' %></span></b>
                   </h1>
                   <h2 class="subtitle"><%= t 'keywords-extractor.subtitle' %></h2>
-                  <div class="CTA-header"><%= t 'hubspot.buttons.keywords-extractor' %></div>
+                  <div class="blue-button"><%= t 'buttons.go' %></div>
                 </div>
               </div>
               <div class="colum50">
@@ -151,7 +152,7 @@
                 <% end %>
               </div>
               <div class="CTA-header text-center pb--100">
-                <%= t 'hubspot.buttons.keywords-extractor' %>
+                <div class="blue-button"><%= t 'buttons.go' %></div>
               </div>
             </div>
             <div>
@@ -187,7 +188,7 @@
                 <% end %>
               </div>
               <div class="CTA-header text-center pb--100">
-                <%= t 'hubspot.buttons.keywords-extractor' %>
+                <div class="blue-button"><%= t 'buttons.go' %></div>
               </div>
             </div>
           </div>
@@ -216,7 +217,7 @@
               </div>
             </div>
             <div class="CTA-header text-center pb--100">
-              <%= t 'hubspot.buttons.keywords-extractor' %>
+              <div class="blue-button"><%= t 'buttons.go' %></div>
             </div>
           </div>
         </div>
@@ -232,5 +233,22 @@
     <!-- Start of HubSpot Embed Code -->
     <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/7149722.js"></script>
     <!-- End of HubSpot Embed Code -->
+
+    <!--Cookies-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js" type="text/javascript">defer</script>
+    <script>
+    window.cookieconsent_options = {
+
+      "message":"This website uses cookies to ensure you get the best experience on our website",
+
+      "dismiss":"Got it!",
+
+      "learnMore":"More info",
+
+      "link":null,
+
+      "theme":"dark-bottom"
+
+    };</script>
   </body>
 </html>

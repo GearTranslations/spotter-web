@@ -1,0 +1,18 @@
+database.db
+*~
+.mailer.yml
+.gibbon.yml
+.rollbar.yml
+
+log/*
+!log/.keep
+
+# Public content
+public/blog
+
+# tmp files
+tmp/pids/*
+tmp/sockets/*
+
+!tmp/pids/.keep
+!tmp/sockets/.keep

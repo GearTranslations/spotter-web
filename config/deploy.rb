@@ -26,7 +26,7 @@ set(
 set :rbenv_map_bins, %w(rake gem bundle ruby rackup racksh puma)
 set :rbenv_roles, :all
 
-set :nginx_use_ssl, false
+set :nginx_use_ssl, true
 set :nginx_ssl_certificate_path, '/etc/letsencrypt/live/spotter.biz/fullchain.pem'
 set :nginx_ssl_certificate_key_path, '/etc/letsencrypt/live/spotter.biz/privkey.pem'
 

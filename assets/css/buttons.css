@@ -1,0 +1,20 @@
+.blue-button {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  -moz-transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  font-family: sans-serif;
+  height: 53px;
+  transition: all .4s ease;
+  text-shadow: none;
+  width: 218px;
+  font-size: 24px;
+  background: linear-gradient(to right, rgba(246,216,117,1) 0%, rgba(250,66,99,1) 100%);
+  color: #000000;
+  font-size: 17px;
+  line-height: 51px;
+  border-radius: 150px;
+}

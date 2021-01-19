@@ -101,6 +101,5 @@ es:
           question: ¿Por qué usar una herramienta de análisis de competidores avanzada?
           answer: "Utilizar Spotter es una forma muy sencilla de realizar análisis digitales complejos de la competencia de modo <b>ágil y efectivo</b>. La búsqueda y comparativa de palabras clave, el análisis de webs, redes sociales y de la presencia en Internet son tareas que consumen una gran cantidad de tiempo y pierden valor si la información no se gestiona en tiempo real.<br><br><b>Apóyate en la tecnología apropiada para capturar cada cambio que tus competidores realicen en sus canales y campañas online</b>.<br><br>Usa Spotter para mantenerte siempre al día en tu mercado <b>sin esfuerzo</b> reduciendo los costes de meses de trabajo. Pasa a la acción con tu sistema de inteligencia competitiva y <b>transforma los datos en mejores estrategias de negocio</b>."
 
-  hubspot:
-    buttons:
-      keywords-extractor: "<span class='hs-cta-wrapper' id='hs-cta-wrapper-11ddc5df-a7a1-4ab4-944d-39433137ba34'><span class='hs-cta-node hs-cta-11ddc5df-a7a1-4ab4-944d-39433137ba34' id='hs-cta-11ddc5df-a7a1-4ab4-944d-39433137ba34'><!--[if lte IE 8]><div id='hs-cta-ie-element'></div><![endif]--><a href='https://cta-redirect.hubspot.com/cta/redirect/7149722/11ddc5df-a7a1-4ab4-944d-39433137ba34' ><img class='hs-cta-img' id='hs-cta-img-11ddc5df-a7a1-4ab4-944d-39433137ba34' style='border-width:0px;' src='https://no-cache.hubspot.com/cta/default/7149722/11ddc5df-a7a1-4ab4-944d-39433137ba34.png' alt='ir a la herramienta'/></a></span><script charset='utf-8' src='https://js.hscta.net/cta/current.js'></script><script type='text/javascript'> hbspt.cta.load(7149722, '11ddc5df-a7a1-4ab4-944d-39433137ba34', {}); </script></span>"
+  buttons:
+    go: Ir a la herramienta
