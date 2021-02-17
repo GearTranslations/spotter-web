@@ -6,7 +6,7 @@ get '/?' do
   erb :index, locals: { meta_title: title, meta_description: description }
 end
 
-get '/blog/' do
+get '/blog/?' do
   redirect '/blog/es/'
 end
 
