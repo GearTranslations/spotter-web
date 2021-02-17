@@ -6,6 +6,10 @@ get '/?' do
   erb :index, locals: { meta_title: title, meta_description: description }
 end
 
+get '/blog/' do
+  redirect '/blog/es/'
+end
+
 #For now, page will be only in spanish
 #namespace(/#{I18n.locales_path}/) do
 #  before do
