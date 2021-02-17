@@ -12,7 +12,7 @@ set :deploy_to, "/data/#{fetch :application}/"
 set :log_level, :debug
 set :keep_releases, 5
 
-set :linked_dirs, %w[log tmp/sockets tmp/pids]
+set :linked_dirs, %w[log tmp/sockets tmp/pids public/blog]
 
 set :rbenv_type, :user
 set :rbenv_ruby, '2.3.0'
